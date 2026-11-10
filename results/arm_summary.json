@@ -1,0 +1,72 @@
+[
+  {
+    "arm": "G0",
+    "tag": "G0_B0_128_single",
+    "negative_rule": "any",
+    "probe_extracted": 0.9979475705723465,
+    "probe_source": 0.8298092444698467,
+    "fabrication_gap": 0.1681383261024998,
+    "probe_frequency_only": 0.9973735358113833,
+    "probe_photometric_only": 0.9081632653061225,
+    "cnn_auc": 0.9999672179514498,
+    "cnn_auc_lo": 0.9998803660102897,
+    "cnn_auc_hi": 1.0,
+    "cnn_over_probe": 0.0020196473791033176
+  },
+  {
+    "arm": "G1",
+    "tag": "G1_B0_128_single",
+    "negative_rule": "any",
+    "probe_extracted": 0.8048185956367842,
+    "probe_source": 0.8298092444698467,
+    "fabrication_gap": -0.024990648833062568,
+    "probe_frequency_only": 0.7289999409690348,
+    "probe_photometric_only": 0.7847676524653979,
+    "cnn_auc": 0.9785514341235628,
+    "cnn_auc_lo": 0.9704408346311382,
+    "cnn_auc_hi": 0.985285812715579,
+    "cnn_over_probe": 0.17373283848677867
+  },
+  {
+    "arm": "G2",
+    "tag": "G2_B0_128_single",
+    "negative_rule": "any",
+    "probe_extracted": 0.8312012994536049,
+    "probe_source": 0.8298092444698467,
+    "fabrication_gap": 0.001392054983758162,
+    "probe_frequency_only": 0.7879803575842103,
+    "probe_photometric_only": 0.8207691624443895,
+    "cnn_auc": 0.9801777879766373,
+    "cnn_auc_lo": 0.9732925321970171,
+    "cnn_auc_hi": 0.9859536014766023,
+    "cnn_over_probe": 0.14897648852303247
+  },
+  {
+    "arm": "G3",
+    "tag": "G3_B0_128_single",
+    "negative_rule": "lung",
+    "probe_extracted": 0.8799196378919216,
+    "probe_source": 0.8806134586187415,
+    "fabrication_gap": -0.0006938207268198937,
+    "probe_frequency_only": 0.5882266049802274,
+    "probe_photometric_only": 0.8772119371645717,
+    "cnn_auc": 0.9699880345522792,
+    "cnn_auc_lo": 0.95620836378217,
+    "cnn_auc_hi": 0.9826023303745355,
+    "cnn_over_probe": 0.0900683966603576
+  },
+  {
+    "arm": "G4",
+    "tag": "G4_B0_128_single",
+    "negative_rule": "hard",
+    "probe_extracted": 0.8791551317218063,
+    "probe_source": 0.8749089019799097,
+    "fabrication_gap": 0.00424622974189659,
+    "probe_frequency_only": 0.5892690945863639,
+    "probe_photometric_only": 0.8611558594025845,
+    "cnn_auc": 0.9691721257883628,
+    "cnn_auc_lo": 0.9577873042243419,
+    "cnn_auc_hi": 0.9803596100077991,
+    "cnn_over_probe": 0.0900169940665565
+  }
+]

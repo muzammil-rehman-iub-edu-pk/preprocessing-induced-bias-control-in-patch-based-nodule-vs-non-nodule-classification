@@ -1,0 +1,18 @@
+{
+  "eligible_scans": 703,
+  "eligible_patients": 696,
+  "scans_attempted": 703,
+  "scans_ok": 703,
+  "scans_failed": 0,
+  "scans_with_patches": 703,
+  "patients_with_patches": 696,
+  "patches_total": 15232,
+  "patches_positive": 3808,
+  "patches_negative": 11424,
+  "never_attempted": [],
+  "attempted_but_no_patches_unexplained": [],
+  "missing_patients": [],
+  "unexpected_scans": [],
+  "failure_reasons": [],
+  "complete": true
+}

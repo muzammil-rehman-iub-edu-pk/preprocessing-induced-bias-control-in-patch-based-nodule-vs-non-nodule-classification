@@ -1,0 +1,5 @@
+condition,hamming,n_removed,auc
+baseline,,0,0.9902644421739286
+drop_test_side,0.0,0,0.9902644421739286
+drop_test_side,4.0,74,0.9902633008507131
+drop_test_side,8.0,1122,0.9900387557194565

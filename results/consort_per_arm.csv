@@ -1,0 +1,6 @@
+arm,negative_rule,positives,negatives,patients,total
+G0,any,3808,3808,696,7616
+G1,any,3808,3808,696,7616
+G2,any,3808,3808,696,7616
+G3,lung,3808,3808,696,7616
+G4,hard,3808,3808,696,7616

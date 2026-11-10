@@ -1,0 +1,91 @@
+fingerprint,fold,percentile,nearest_hamming
+aHash(16x16),1,0,2.0
+aHash(16x16),1,1,4.0
+aHash(16x16),1,5,7.0
+aHash(16x16),1,10,10.0
+aHash(16x16),1,25,16.0
+aHash(16x16),1,50,29.0
+aHash(16x16),2,0,1.0
+aHash(16x16),2,1,5.0
+aHash(16x16),2,5,8.0
+aHash(16x16),2,10,10.0
+aHash(16x16),2,25,16.0
+aHash(16x16),2,50,28.0
+aHash(16x16),3,0,2.0
+aHash(16x16),3,1,4.0
+aHash(16x16),3,5,6.0
+aHash(16x16),3,10,10.0
+aHash(16x16),3,25,16.0
+aHash(16x16),3,50,28.0
+aHash(16x16),4,0,1.0
+aHash(16x16),4,1,4.0
+aHash(16x16),4,5,7.0
+aHash(16x16),4,10,9.0
+aHash(16x16),4,25,16.0
+aHash(16x16),4,50,28.0
+aHash(16x16),5,0,1.0
+aHash(16x16),5,1,4.0
+aHash(16x16),5,5,7.0
+aHash(16x16),5,10,10.0
+aHash(16x16),5,25,16.0
+aHash(16x16),5,50,29.0
+dHash(17x16),1,0,72.0
+dHash(17x16),1,1,83.0
+dHash(17x16),1,5,90.0
+dHash(17x16),1,10,93.0
+dHash(17x16),1,25,96.25
+dHash(17x16),1,50,100.0
+dHash(17x16),2,0,75.0
+dHash(17x16),2,1,84.0
+dHash(17x16),2,5,89.0
+dHash(17x16),2,10,92.0
+dHash(17x16),2,25,96.0
+dHash(17x16),2,50,100.0
+dHash(17x16),3,0,68.0
+dHash(17x16),3,1,83.0
+dHash(17x16),3,5,89.15
+dHash(17x16),3,10,92.0
+dHash(17x16),3,25,96.0
+dHash(17x16),3,50,99.0
+dHash(17x16),4,0,68.0
+dHash(17x16),4,1,84.0
+dHash(17x16),4,5,90.0
+dHash(17x16),4,10,93.0
+dHash(17x16),4,25,96.0
+dHash(17x16),4,50,100.0
+dHash(17x16),5,0,72.0
+dHash(17x16),5,1,85.0
+dHash(17x16),5,5,90.0
+dHash(17x16),5,10,93.0
+dHash(17x16),5,25,97.0
+dHash(17x16),5,50,100.0
+pHash(8x8 DCT),1,0,4.0
+pHash(8x8 DCT),1,1,4.0
+pHash(8x8 DCT),1,5,8.0
+pHash(8x8 DCT),1,10,8.0
+pHash(8x8 DCT),1,25,10.0
+pHash(8x8 DCT),1,50,12.0
+pHash(8x8 DCT),2,0,4.0
+pHash(8x8 DCT),2,1,6.0
+pHash(8x8 DCT),2,5,6.0
+pHash(8x8 DCT),2,10,8.0
+pHash(8x8 DCT),2,25,10.0
+pHash(8x8 DCT),2,50,14.0
+pHash(8x8 DCT),3,0,4.0
+pHash(8x8 DCT),3,1,4.0
+pHash(8x8 DCT),3,5,6.0
+pHash(8x8 DCT),3,10,8.0
+pHash(8x8 DCT),3,25,10.0
+pHash(8x8 DCT),3,50,12.0
+pHash(8x8 DCT),4,0,2.0
+pHash(8x8 DCT),4,1,6.0
+pHash(8x8 DCT),4,5,6.0
+pHash(8x8 DCT),4,10,8.0
+pHash(8x8 DCT),4,25,10.0
+pHash(8x8 DCT),4,50,12.0
+pHash(8x8 DCT),5,0,2.0
+pHash(8x8 DCT),5,1,6.0
+pHash(8x8 DCT),5,5,8.0
+pHash(8x8 DCT),5,10,8.0
+pHash(8x8 DCT),5,25,10.0
+pHash(8x8 DCT),5,50,13.0

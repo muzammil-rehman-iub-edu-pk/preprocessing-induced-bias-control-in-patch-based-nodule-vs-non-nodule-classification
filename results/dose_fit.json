@@ -1,0 +1,32 @@
+{
+  "statistics-only baseline": {
+    "points": 9,
+    "power_law": {
+      "scale": 2144.091093138158,
+      "exponent": -2.553930668572391,
+      "r2_log": 0.9919431863373143,
+      "error_cut_per_doubling": 5.872320331940862
+    },
+    "exponential": {
+      "scale": 3644.1279978715097,
+      "rate": -1.0146269852835919,
+      "r2_log": 0.9474031534203252
+    },
+    "errors_strict_over_legacy": 26.309859154929576
+  },
+  "EfficientNetB0 128": {
+    "points": 4,
+    "power_law": {
+      "scale": 138.84507855657068,
+      "exponent": -2.7921136390044206,
+      "r2_log": 0.9320101395825735,
+      "error_cut_per_doubling": 6.926438088193415
+    },
+    "exponential": {
+      "scale": 325.7290135630185,
+      "rate": -1.2378606600168558,
+      "r2_log": 0.8204150983083174
+    },
+    "errors_strict_over_legacy": 35.0
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "within_strata": [
+    {
+      "stratum": "<6mm",
+      "n": 464,
+      "patients": 107,
+      "probe_extracted": 0.9958106764276495,
+      "probe_source": 0.8134058354315215,
+      "fabrication_gap": 0.18240484099612808
+    },
+    {
+      "stratum": "6-8mm",
+      "n": 1918,
+      "patients": 259,
+      "probe_extracted": 0.9981318614402283,
+      "probe_source": 0.842012892113367,
+      "fabrication_gap": 0.1561189693268612
+    },
+    {
+      "stratum": "8-10mm",
+      "n": 1771,
+      "patients": 242,
+      "probe_extracted": 0.9962141378290447,
+      "probe_source": 0.8408008950271981,
+      "fabrication_gap": 0.15541324280184654
+    },
+    {
+      "stratum": "10-15mm",
+      "n": 1750,
+      "patients": 252,
+      "probe_extracted": 0.9978848719106788,
+      "probe_source": 0.8186543531463023,
+      "fabrication_gap": 0.17923051876437646
+    },
+    {
+      "stratum": ">=15mm",
+      "n": 1713,
+      "patients": 245,
+      "probe_extracted": 0.9934744398449307,
+      "probe_source": 0.8321054274262435,
+      "fabrication_gap": 0.16136901241868717
+    }
+  ],
+  "resample_by_class": [
+    {
+      "class": "positives",
+      "n": 3808,
+      "rf_median": 3.657142857142857,
+      "rf_min": 1.4382022471910112,
+      "rf_max": 4.923076923076923,
+      "rf_unique": 60
+    },
+    {
+      "class": "negatives",
+      "n": 3808,
+      "rf_median": 1.0,
+      "rf_min": 1.0,
+      "rf_max": 1.0,
+      "rf_unique": 1
+    }
+  ],
+  "strata_counts": [
+    {
+      "stratum": "<6mm",
+      "nodules": 134,
+      "positive_patches": 313,
+      "probe_patches": 464,
+      "probe_patients": 107,
+      "fabrication_gap": 0.18240484099612808
+    },
+    {
+      "stratum": "6-8mm",
+      "nodules": 379,
+      "positive_patches": 966,
+      "probe_patches": 1918,
+      "probe_patients": 259,
+      "fabrication_gap": 0.1561189693268612
+    },
+    {
+      "stratum": "8-10mm",
+      "nodules": 293,
+      "positive_patches": 805,
+      "probe_patches": 1771,
+      "probe_patients": 242,
+      "fabrication_gap": 0.15541324280184654
+    },
+    {
+      "stratum": "10-15mm",
+      "nodules": 282,
+      "positive_patches": 812,
+      "probe_patches": 1750,
+      "probe_patients": 252,
+      "fabrication_gap": 0.17923051876437646
+    },
+    {
+      "stratum": ">=15mm",
+      "nodules": 304,
+      "positive_patches": 912,
+      "probe_patches": 1713,
+      "probe_patients": 245,
+      "fabrication_gap": 0.16136901241868717
+    }
+  ]
+}

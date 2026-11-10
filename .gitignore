@@ -1,0 +1,11 @@
+cache/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.npz
+*.h5
+.DS_Store
+.venv/
+results_rerun/
+figures_rerun/
+results_g4grid/

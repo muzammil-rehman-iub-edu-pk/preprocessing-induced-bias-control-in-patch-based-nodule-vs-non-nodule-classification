@@ -1,0 +1,141 @@
+{
+  "flow": [
+    {
+      "stage": "TCIA collection: scans",
+      "n": 1018,
+      "note": ""
+    },
+    {
+      "stage": "TCIA collection: patients",
+      "n": 1010,
+      "note": "8 contributed 2 retained scans"
+    },
+    {
+      "stage": "Annotation clusters (any reader count)",
+      "n": 2651,
+      "note": ""
+    },
+    {
+      "stage": "Clusters with >=3 annotations",
+      "n": 1392,
+      "note": "inclusion criterion"
+    },
+    {
+      "stage": "Eligible scans",
+      "n": 703,
+      "note": ">=1 qualifying cluster"
+    },
+    {
+      "stage": "Eligible patients",
+      "n": 696,
+      "note": ""
+    },
+    {
+      "stage": "Scans extracted successfully",
+      "n": 703,
+      "note": ""
+    },
+    {
+      "stage": "Scans failed",
+      "n": 0,
+      "note": "none"
+    },
+    {
+      "stage": "Nodules contributing patches",
+      "n": 1392,
+      "note": ""
+    },
+    {
+      "stage": "Positive patches",
+      "n": 3808,
+      "note": "<= 3 slices per nodule"
+    },
+    {
+      "stage": "Negative patches (all rules)",
+      "n": 11424,
+      "note": ""
+    },
+    {
+      "stage": "  rule=any (legacy)",
+      "n": 3808,
+      "note": "uniform, no anatomical constraint"
+    },
+    {
+      "stage": "  rule=lung",
+      "n": 3808,
+      "note": ">=80% of the 64 mm window in parenchyma"
+    },
+    {
+      "stage": "  rule=hard",
+      "n": 3808,
+      "note": "in-parenchyma, structure-centred"
+    },
+    {
+      "stage": "Total patches",
+      "n": 15232,
+      "note": ""
+    },
+    {
+      "stage": "Patients represented",
+      "n": 696,
+      "note": ""
+    }
+  ],
+  "per_arm": [
+    {
+      "arm": "G0",
+      "negative_rule": "any",
+      "positives": 3808,
+      "negatives": 3808,
+      "patients": 696,
+      "total": 7616
+    },
+    {
+      "arm": "G1",
+      "negative_rule": "any",
+      "positives": 3808,
+      "negatives": 3808,
+      "patients": 696,
+      "total": 7616
+    },
+    {
+      "arm": "G2",
+      "negative_rule": "any",
+      "positives": 3808,
+      "negatives": 3808,
+      "patients": 696,
+      "total": 7616
+    },
+    {
+      "arm": "G3",
+      "negative_rule": "lung",
+      "positives": 3808,
+      "negatives": 3808,
+      "patients": 696,
+      "total": 7616
+    },
+    {
+      "arm": "G4",
+      "negative_rule": "hard",
+      "positives": 3808,
+      "negatives": 3808,
+      "patients": 696,
+      "total": 7616
+    }
+  ],
+  "quality": {
+    "positives_with_clipped_bbox": 0,
+    "patches_touching_slice_edge": 1066,
+    "nodules_yielding_fewer_than_3_slices": 270,
+    "legacy_resample_factor_positives_median": 3.657142857142857,
+    "legacy_resample_factor_positives_iqr": [
+      3.0476190476190474,
+      4.129032258064516
+    ],
+    "legacy_resample_factor_negatives": 1.0,
+    "pixel_spacing_range": [
+      0.4609375,
+      0.9765625
+    ]
+  }
+}

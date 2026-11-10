@@ -1,0 +1,77 @@
+{
+  "collection": {
+    "scans": 1018,
+    "patients": 1010,
+    "patients_with_two_scans": 8,
+    "annotation_clusters": 2651,
+    "qualifying_nodules": 1392,
+    "eligible_scans": 703,
+    "eligible_patients": 696,
+    "eligible_patients_with_two_scans": 7
+  },
+  "nodule_diameter_mm": {
+    "median": 9.149236430180984,
+    "q1": 6.961549270222868,
+    "q3": 13.859795799592069,
+    "fraction_below_10mm": 0.5790229885057471
+  },
+  "slice_thickness_mm": {
+    "median": 2.0,
+    "min": 0.6,
+    "max": 5.0
+  },
+  "pixel_spacing_mm": {
+    "median": 0.703125,
+    "min": 0.4609375,
+    "max": 0.9765625
+  },
+  "patches": {
+    "nodules": 1392,
+    "theoretical_maximum_positives": 4176,
+    "positives": 3808,
+    "nodules_by_slices_obtained": {
+      "1": 98,
+      "2": 172,
+      "3": 1122
+    },
+    "nodules_with_fewer_than_3_slices": 270,
+    "negatives_per_rule": {
+      "any": 3808,
+      "lung": 3808,
+      "hard": 3808
+    },
+    "total": 15232
+  },
+  "positive_windows_failing_lung_rule": {
+    "count": 2847,
+    "fraction": 0.7476365546218487,
+    "threshold": 0.8
+  },
+  "diameter_bands": [
+    {
+      "band": "<6mm",
+      "nodules": 134,
+      "positive_patches": 313
+    },
+    {
+      "band": "6-8mm",
+      "nodules": 379,
+      "positive_patches": 966
+    },
+    {
+      "band": "8-10mm",
+      "nodules": 293,
+      "positive_patches": 805
+    },
+    {
+      "band": "10-15mm",
+      "nodules": 282,
+      "positive_patches": 812
+    },
+    {
+      "band": ">=15mm",
+      "nodules": 304,
+      "positive_patches": 912
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the manuscript."
+title: "Preprocessing-Induced Bias Control in Patch-Based Nodule vs. Non-Nodule Classification Using Deep Learning Models"
+type: software
+authors:
+  - family-names: "Ur Rehman"
+    given-names: "Muzammil"
+  - family-names: "Saher"
+    given-names: "Najia"
+  - family-names: "Qadri"
+    given-names: "Salman"
+  - family-names: "Gilanie"
+    given-names: "Ghulam"
+keywords:
+  - preprocessing bias
+  - patch extraction
+  - shortcut learning
+  - lung nodule classification
+  - transfer learning
+  - LIDC-IDRI

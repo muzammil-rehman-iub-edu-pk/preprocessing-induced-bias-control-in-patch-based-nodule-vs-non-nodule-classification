@@ -1,0 +1,107 @@
+[
+  {
+    "arm": "G0",
+    "negative_rule": "any",
+    "n_patches": 7616,
+    "n_patients": 696,
+    "probe_extracted": 0.9979475705723465,
+    "probe_extracted_ci": [
+      0.9965162846145191,
+      0.9991545250894771
+    ],
+    "probe_source": 0.8298092444698467,
+    "probe_source_ci": [
+      0.8184376650417376,
+      0.840799498723219
+    ],
+    "fabrication_gap": 0.1681383261024998,
+    "extracted_frequency_only": 0.9973735358113833,
+    "extracted_photometric_only": 0.9081632653061225,
+    "source_frequency_only": 0.7403870555575172,
+    "source_photometric_only": 0.822798627723148
+  },
+  {
+    "arm": "G1",
+    "negative_rule": "any",
+    "n_patches": 7616,
+    "n_patients": 696,
+    "probe_extracted": 0.8048185956367842,
+    "probe_extracted_ci": [
+      0.7928469126738042,
+      0.8168089608105343
+    ],
+    "probe_source": 0.8298092444698467,
+    "probe_source_ci": [
+      0.8193748194510161,
+      0.8409039616226166
+    ],
+    "fabrication_gap": -0.024990648833062568,
+    "extracted_frequency_only": 0.7289999409690348,
+    "extracted_photometric_only": 0.7847676524653979,
+    "source_frequency_only": 0.7403870555575172,
+    "source_photometric_only": 0.822798627723148
+  },
+  {
+    "arm": "G2",
+    "negative_rule": "any",
+    "n_patches": 7616,
+    "n_patients": 696,
+    "probe_extracted": 0.8312012994536049,
+    "probe_extracted_ci": [
+      0.8206336274819738,
+      0.8419534987158971
+    ],
+    "probe_source": 0.8298092444698467,
+    "probe_source_ci": [
+      0.8195364466406997,
+      0.8406658062797403
+    ],
+    "fabrication_gap": 0.001392054983758162,
+    "extracted_frequency_only": 0.7879803575842103,
+    "extracted_photometric_only": 0.8207691624443895,
+    "source_frequency_only": 0.7403870555575172,
+    "source_photometric_only": 0.822798627723148
+  },
+  {
+    "arm": "G3",
+    "negative_rule": "lung",
+    "n_patches": 7616,
+    "n_patients": 696,
+    "probe_extracted": 0.8799196378919216,
+    "probe_extracted_ci": [
+      0.8650519163709682,
+      0.8929189826608306
+    ],
+    "probe_source": 0.8806134586187415,
+    "probe_source_ci": [
+      0.8678036121725743,
+      0.8929769389826994
+    ],
+    "fabrication_gap": -0.0006938207268198937,
+    "extracted_frequency_only": 0.5882266049802274,
+    "extracted_photometric_only": 0.8772119371645717,
+    "source_frequency_only": 0.600008385707224,
+    "source_photometric_only": 0.8758678793208459
+  },
+  {
+    "arm": "G4",
+    "negative_rule": "hard",
+    "n_patches": 7616,
+    "n_patients": 696,
+    "probe_extracted": 0.8791551317218063,
+    "probe_extracted_ci": [
+      0.8670727192708082,
+      0.892051590529801
+    ],
+    "probe_source": 0.8749089019799097,
+    "probe_source_ci": [
+      0.8626731130975743,
+      0.8883245173182058
+    ],
+    "fabrication_gap": 0.00424622974189659,
+    "extracted_frequency_only": 0.5892690945863639,
+    "extracted_photometric_only": 0.8611558594025845,
+    "source_frequency_only": 0.5622823577960596,
+    "source_photometric_only": 0.8645683457206412
+  }
+]

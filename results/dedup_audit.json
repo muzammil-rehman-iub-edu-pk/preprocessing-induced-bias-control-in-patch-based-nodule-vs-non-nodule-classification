@@ -1,0 +1,31 @@
+{
+  "exact_duplicate_groups": 0,
+  "exact_duplicate_pairs": 0,
+  "redundant_patches": 0,
+  "effect": [
+    {
+      "condition": "baseline",
+      "hamming": null,
+      "n_removed": 0,
+      "auc": 0.9902644421739286
+    },
+    {
+      "condition": "drop_test_side",
+      "hamming": 0,
+      "n_removed": 0,
+      "auc": 0.9902644421739286
+    },
+    {
+      "condition": "drop_test_side",
+      "hamming": 4,
+      "n_removed": 74,
+      "auc": 0.9902633008507131
+    },
+    {
+      "condition": "drop_test_side",
+      "hamming": 8,
+      "n_removed": 1122,
+      "auc": 0.9900387557194565
+    }
+  ]
+}
